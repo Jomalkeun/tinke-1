@@ -1,0 +1,65 @@
+/* 도륜 */
+/*=====================↓↓ section1 임시=================================*/
+#splash.section {
+	height: 885px;
+	width: 100%;
+	background: url(../img/bg_splash.jpg) center;
+	background-attachment: fixed;
+}
+
+/*=====================↓↓ section2=====================================*/
+#intro.section {
+	position: relative;
+	height: 928px;
+	width: 100%;
+	background: url(../img/bg_intro.jpg);
+	background-position: center;
+}
+#intro .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -150px;
+	width: 960px;
+	height: 381px;
+	/*background: #333 ;임시*/
+}
+#intro .content {
+	position: absolute;
+	width: 460px;
+	height: 214px;
+	left: 360px;
+	margin: 0 10px;
+
+}
+#intro .content h1 {
+	font-family: verdana;
+	font-size: 40px;
+	color: #535353;
+	float: left;
+	line-height: 65px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0;
+}
+#intro .logo {
+	background: url(../img/logo_light.png);
+	width: 94px;
+	height: 32px;
+	margin: 16px 10px 18px;
+	float: left;
+}
+#intro .clear {
+	clear: both;
+}
+#intro p {
+	margin: 0;
+	font-size: 14px;
+}
+#intro .btn_next {
+	background: url(../img/btn_next_blue.png) no-repeat;
+	height: 20px;
+	padding-left: 25px;
+	margin-top: 30px;
+}

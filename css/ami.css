@@ -1,0 +1,220 @@
+body,div,ul,li,button,img,a,p,span,img,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+.v_h{position:absolute;left:-999px;width:1px;height:1px;overflow:hidden;visibility:hidden;font-size:0;line-height:0;}
+ul{list-style-type:none;}
+a:hover,a:active,a:link,a:visited{text-decoration:none;}
+img,button{border:0 none;background:none;}/*버튼으로 넣으니 왜 연한 회색 bg가 깔리는지?..*/
+body{width:100%;font-family:verdana;font-size:12px;color:#535353;text-transform:uppercase;}
+
+
+/*버튼으로 넣으니 왜 연한 회색 bg가 깔리는지?..*/
+.num_eight {
+    height: 1000px;
+    background: url(../img/ami/bg_mobility.jpg) center no-repeat;
+    position: relative;
+}
+
+.mobility {
+    width: 400px;
+    position: absolute;
+    left: 48%;
+    top: 400px;
+    line-height: 150%;
+}
+.mobility p {
+    margin-bottom: 20px;
+}
+h2.title {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.shipping {
+    font-size: 15px;
+    float: left;
+    line-height: 39px;
+    letter-spacing: -1px;
+}
+
+.tinke_pocket{ position:absolute; background:url(../img/ami/pocket.png) 0 0 no-repeat; width:344px; height:300px; left:50%; margin-top:595px; margin-left:-395px; z-index:666666;}
+
+
+.buy {
+    float: left;
+    margin-left: 10px;
+}
+
+.buy a {
+    width: 129px;
+    height: 39px;
+    background: url(../img/ami/btn_buy.png) no-repeat;
+    display: block;
+}
+
+.buy a:link {
+    background-position: 0 0;
+}
+
+.buy a:hover {
+    background-position: 0 -40px;
+}
+
+.buy a:active {
+    background-position: 0 -80px;
+}
+
+.bottom_menu {
+    height: 45px;
+    background: url(../img/ami/bg_nav_bottom.jpg) repeat 0 0;
+    letter-spacing: -1px;
+    *zoom: 1;
+}
+
+.bottom_menu:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.bottom_menu a {
+    color: #666;
+}
+
+.bottom_menu a:hover, .bottom_menu a:active {
+    color: #fff;
+}
+
+.bottom_menu > ul {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.bottom_menu > ul > li {
+    float: left;
+    width: 137px;
+    height: 30px;
+    text-align: center;
+    border-left: 1px solid #333;
+}
+
+.bottom_menu > ul > li > a {
+    width: 137px;
+    height: 30px;
+    background: url(../img/ami/icon.png) no-repeat center 8px;
+    display: block;
+}
+
+.bottom_menu > ul > li > a:hover, .bottom_menu > ul > li > a:active {
+    background-position: center -16px;
+}
+
+.bottom_menu .social {
+    border: 0 none;
+    background: none;
+}
+
+.bottom_menu .social_list {
+    height: 22px;
+    *zoom: 1;
+    border-left: 1px solid #333;
+}
+
+.bottom_menu .social_list:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.bottom_menu .social_list li {
+    width: 16px;
+    height: 20px;
+    border-right: 1px solid #333;
+    float: left;
+    padding: 0 8px;
+}
+
+.bottom_menu .social_list li a {
+    display: block;
+}
+
+.bottom_menu .social_list .social_facebook a {
+    height: 14px;
+    background: url(../img/ami/btn_social_fb.png) no-repeat 0 0;
+}
+
+.bottom_menu .social_list .social_facebook a:hover, .bottom_menu .social_list .social_facebook a:active {
+    background-position: 0 -15px;
+}
+
+.bottom_menu .social_list .social_twitter a {
+    height: 13px;
+    background: url(../img/ami/btn_social_tw.png) no-repeat 0 0;
+}
+
+.bottom_menu .social_list .social_twitter a:hover, .bottom_menu .social_list .social_twitter a:active {
+    background-position: 0 -13px;
+}
+
+.bottom_menu .social_list .social_pinterest a {
+    height: 15px;
+    background: url(../img/ami/btn_social_pin.png) no-repeat 0 0;
+}
+
+.bottom_menu .social_list .social_pinterest a:hover, .bottom_menu .social_list .social_twitter a:active {
+    background-position: 0 -16px;
+}
+
+.bottom_menu .social_list .social_youtube a {
+    height: 18px;
+    background: url(../img/ami/btn_social_yt.png) no-repeat 0 0;
+}
+
+.bottom_menu .social_list .social_youtube a:hover, .bottom_menu .social_list .social_twitter a:active {
+    background-position: 0 -19px;
+}
+
+.footer_wrap {
+    background: url(../img/ami/bg_footer.jpg) repeat;
+}
+
+.footer {
+    width: 960px;
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: #838383;
+    *zoom: 1;
+}
+
+.footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer ul {
+    float: left;
+    width: 230px;
+    line-height: 200%;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover, .footer a:active, .footer a:focus {
+    color: #666;
+}
+
+.footer .f_c {
+    background: url(../img/ami/icon_cart_blue.png) no-repeat;
+    color: #00aad2;
+    padding-left: 18px;
+}
+
+.footer .f_c:hover, .footer .f_c:active, .footer .f_c:focus {
+    background-position: 0 -15px;
+    color: #38d9ff
+}

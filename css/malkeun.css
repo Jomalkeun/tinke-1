@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* ---------------------------------Part 4--------------------------------- */
+.part4 {
+	width:100%; height:1000px; background: url(../img/bg_polka_2.jpg) repeat center;
+	position:relative; background-color:#fff;
+}
+
+.part4 .cardio_stress {
+	width:960px; height:705px;
+	position:Absolute; left:50%; margin-left:-480px; top:132px;
+}
+.part4 .cardio_body {
+	width:700px;height:430px; margin:30px auto 0;
+	background: url(../img/body.png) no-repeat center;
+	position:relative;
+}
+.part4 .body_left {
+	position:Absolute; top:85px; left:0;
+	width:201px; height:212px;
+	background: url(../img/content_left.png) no-repeat;
+}
+.part4 .body_right {
+	position:Absolute; top:70px; right:50px;
+	width:294px; height:227px;
+	background: url(../img/content_right.png) no-repeat;
+}
+.part4 .monitoring {
+	background:url(../img/div_monitor.png) no-repeat center top;
+	position:relative; top:-20px;
+	text-align:center;
+	}
+.part4 .monitoring h2 {
+	font-size:32px; line-height:45px;
+	letter-spacing:-4px;
+	color: #535353;
+	font-weight:400;
+	text-transform: uppercase;
+	position:Relative; top:-25px;
+}
+.part4 .monitoring > div > div {
+	width:475px; float:left;
+}
+.part4 .monitoring h3 {
+	font-size:26px; margin-bottom:10px;
+	font-weight:400;
+	text-transform: uppercase;
+	position:Relative; top:-15px;
+}
+.part4 .monitoring p{
+	padding:0 45px;
+	line-height:20px;
+	font-size:10px;
+}
+.part4 .monitoring a {
+	display:inline-block;
+	line-height:20px;
+	height:20px; vertical-align:middle;
+	color: #00aad2; padding-left:23px;
+	text-transform: uppercase;
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin:10px auto;
+}
+.part4 .monitoring a span {
+	display:inline-block;
+	width:21px; height:20px;
+}
+.part4 .monitoring a:hover {
+	color:#0085a4;
+	background-position:0 -22px;
+}
+.part4 .monitoring div a {
+	background-image: url(../img/btn_more_blue.png);
+}
+.part4 .monitoring > a {
+	background-image: url(../img/btn_next_blue.png);
+}

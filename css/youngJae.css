@@ -1,0 +1,89 @@
+/*
+* Tinke 스터디 #7
+* 작성자 : 류영재
+* 작성일 : 2014. 09. 01
+*/
+
+/*  단락설정  */
+#youngJae .section {
+    background: url('../img/bg_polka.png');
+    height: 986px;
+}
+#youngJae .transitionfix.section {
+    height: 1986px;
+}
+#youngJae .section .container {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*  contents 공통  */
+#youngJae .section .container .contents {
+    width: 400px;
+    color: #626262;
+}
+#youngJae .section .container .contents h3 {
+    margin: 0 0 25px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #535353;
+}
+#youngJae .section .container .contents p {
+    margin: 25px 0;
+    font-size: 15px;
+}
+#youngJae .section .container .contents .btn_next button {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-indent: 30px;
+    color: #393939;
+    line-height: 20px;
+    background: transparent url('../img/btn_next_blue.png') no-repeat 0 0;
+    border: none;
+}
+#youngJae .section .container .contents .btn_next button:hover,
+#youngJae .section .container .contents .btn_next button:focus {
+    color: #626262;
+    background: transparent url('../img/btn_next_blue.png') no-repeat 0 100%;
+}
+
+/*  share  */
+#youngJae #share .container .contents {
+    /*position: absolute;*/
+    /*top: 240px;*/
+    /*left: 70px;*/
+    padding-top: 240px;
+    margin-left: 70px;
+}
+#youngJae #share .badges {
+    margin: 30px 50% 0 0;
+    height: 50px;
+    overflow: hidden;
+}
+#youngJae #share .badges .badge_list li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 0 5px 15px 0;
+}
+
+/*  todo :: 이미지 로테이트 (스크립트 이용해서 처리)
+#youngJae #share .badges .badge_list li img {
+    -ms-tranform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+*/
+
+/*  #mobile  */
+#youngJae #mobile .container .contents {
+    /*top: 0;*/
+    /*left: 480px;*/
+    padding-top: 0;
+    margin-left: 480px;
+}
