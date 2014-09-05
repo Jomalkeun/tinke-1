@@ -76,3 +76,23 @@
 .part4 .monitoring > a {
 	background-image: url(../img/btn_next_blue.png);
 }
+
+#brain {
+	width:54px; height:40px;
+	margin-left:140px;
+}
+#heart {
+	width:170px; height:67px; margin:40px 0 0 135px;
+	position:relative;
+}
+#heart .heart {
+	position:absolute;
+	width:39px; height:32px; margin: 18px 0 0 16px;
+	background:url(../img/heart.png) no-repeat 0 0;
+	background-size: 100%;
+}
+#heart .circle {
+	position:absolute;
+	width:70px; height:65px;
+	background:url(../img/heart_circle.png)  no-repeat 0 0;
+}
