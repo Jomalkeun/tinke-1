@@ -77,9 +77,16 @@
 	background-image: url(../img/btn_next_blue.png);
 }
 
-#brain {
+.part4 .brain {
+	position:relative;
 	width:54px; height:40px;
+	overflow:hidden;
 	margin-left:140px;
+}
+.part4 .brain .inner {
+	position:absolute; top:0; left:0;
+	width:54px; height:520px;
+	background:url(../img/brain.png) no-repeat 0 0;
 }
 #heart {
 	width:170px; height:67px; margin:40px 0 0 135px;
