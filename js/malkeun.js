@@ -17,14 +17,12 @@ function brain(){
 		current ++;
 
 		if (current == 13) current = 0;
-		console.log(current);
 		var next = brain.eq(current);
 		var height = 40 * current;
 		var move = "-" + height + "px"
-		next.css("top", move)
+		brain.css("top", move)
 			.stop()
 			.animate({top:move}, {duration:0});
-		console.log(move);
 	}, 100);
 }
 
