@@ -7,12 +7,6 @@ function brain(){
 	var brain = $(".brain .inner");
 
 	setInterval(function(){
-		/*
-		var prev = brain.eq(current);
-		prev.css("top", 0)
-			.stop()
-			.animate({top:'-40px'}, {duration:0});
-		*/
 
 		current ++;
 
@@ -23,7 +17,7 @@ function brain(){
 		brain.css("top", move)
 			.stop()
 			.animate({top:move}, {duration:0});
-	}, 100);
+	}, 90);
 }
 
 
