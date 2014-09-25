@@ -20,7 +20,7 @@
 	top: 50%;
 	left: 50%;
 	margin-left: -500px;
-	margin-top: -150px;
+	margin-top: -290px;
 	width: 960px;
 	height: 381px;
 	/*background: #333 ;임시*/
@@ -29,13 +29,13 @@
 	position: absolute;
 	width: 460px;
 	height: 214px;
-	left: 360px;
+	left: 380px;
 	margin: 0 10px;
 
 }
-#intro .content h1 {
+#intro .content h2 {
 	font-family: verdana;
-	font-size: 40px;
+	font-size: 36px;
 	color: #535353;
 	float: left;
 	line-height: 65px;
@@ -54,12 +54,90 @@
 	clear: both;
 }
 #intro p {
-	margin: 0;
-	font-size: 14px;
+	margin: 0 0 20px;
+	font-size: 11px;
 }
 #intro .btn_next {
 	background: url(../img/btn_next_blue.png) no-repeat;
 	height: 20px;
 	padding-left: 25px;
 	margin-top: 30px;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+#intro .btn_next:hover,
+#intro .btn_next:focus{
+    background-position: 0 -22px;
+    color: #696969;
+}
+
+#intro .content_link {
+    position: absolute;
+    left: 151px;
+    top: 200px;
+    width: 700px;
+    height: 57px;
+    margin-top: 110px;
+}
+
+#intro .content_link hr {
+    background-color: #dadada;
+    width: 700px;
+    height: 1px;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+#intro .content_link li {
+    display: inline-block;
+    margin: 3px 30px 0 0;
+}
+
+#intro .content_link li:first-child {
+    font-size: 10px;
+    margin: 3px 30px 0 50px;
+
+}
+
+
+
+#intro .content_link li.img_cnn{
+    background: url(../img/cnn_1.png) no-repeat;/*background vs background-image ???*/
+    width: 48px;
+    height: 22px;
+}
+#intro .content_link li.img_gizmodo{
+    background: url(../img/gizmodo_1.png) no-repeat;
+    width: 136px;
+    height: 19px;
+}
+#intro .content_link li.img_wired{
+    background: url(../img/wired_1.png) no-repeat;
+    width: 114px;
+    height: 24px;
+}
+#intro .content_link li.img_forbes{
+    background: url(../img/forbes.png) no-repeat;
+    width: 81px;
+    height: 26px;
+}
+
+#intro .content_link li.img_cnn:hover,
+#intro .content_link li.img_cnn:focus {
+    background-position: 0 -24px;
+}
+#intro .content_link li.img_gizmodo:hover,
+#intro .content_link li.img_gizmodo:focus {
+    background-position: 0 -22px;
+}
+
+#intro .content_link li.img_wired:hover,
+#intro .content_link li.img_wired:focus {
+    background-position: 0 -27px;
+}
+#intro .content_link li.img_forbes:hover,
+#intro .content_link li.img_forbes:focus {
+    background-position: 0 -28px;
 }
