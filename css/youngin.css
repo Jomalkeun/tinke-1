@@ -1,0 +1,117 @@
+#splash.section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_splash.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+}
+#splash .container {
+    width: 960px;
+    margin: 0 auto;
+}
+#splash .hand {
+    position: relative;
+    left: -710px;
+    padding-top: 150px;
+}
+#splash .hand .hand1 {
+    width: 977px;
+    height: 644px;
+    background: url('../img/hand_1 (1).png') no-repeat;
+}
+#splash .text {
+	position: absolute;
+	top: 255px;
+	left: 50%;
+	width: 360px;
+	margin-left: -110px;
+}
+#splash .text h2 {
+	width: 198px;
+	height: 67px;
+	margin-bottom: 20px;
+	background: url('../img/logo_dark.png') no-repeat;
+}
+#splash .text p {
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+#splash .text p a.btn_buy {
+	display: inline-block;
+	width: 129px;
+	height: 38px;
+	vertical-align: middle;
+	background: url('../img/btn_buy.png') no-repeat 0 0;
+}
+#splash .text p a.btn_buy:hover {
+	background: url('../img/btn_buy.png') no-repeat 0 -40px;
+}
+#splash .text p a.btn_buy:active {
+	background: url('../img/btn_buy.png') no-repeat 0 -80px;
+}
+#splash .selectBox {
+	border-top: 1px solid #777;
+	padding-top: 20px;
+}
+#splash .selectBox p {
+	font-size: 11px;
+}
+#splash .selectBox button {
+	vertical-align: middle;
+	margin-left: 5px;
+	line-height: 17px;
+	text-indent: 17px;
+	color: #b6b6b6;
+	cursor: pointer;
+}
+#splash .selectBox p button:hover,
+#splash .selectBox p button:focus,  {
+	vertical-align: middle;
+	margin-left: 5px;
+	line-height: 17px;
+	text-indent: 17px;
+	color: #00aad2;
+	cursor: pointer;
+}
+#splash .selectBox button.on {
+	color: #555;
+}
+
+#splash .selectBox button.btn_ios {
+	background: url('../img/ios.png') no-repeat 0 -16px;
+}
+#splash .selectBox button.btn_ios.on {
+	background-position: 0 0;
+}
+#splash .selectBox button.btn_ios:hover,
+#splash .selectBox button.btn_ios:focus {
+	background: url('../img/ios.png') no-repeat 0 -32px;
+}
+
+#splash .selectBox button.btn_android {
+	background: url('../img/android.png') no-repeat 0 -15px;
+}
+#splash .selectBox button.btn_android.on {
+	background: url('../img/android.png') no-repeat 0 1px;
+}
+#splash .selectBox button.btn_android:hover,
+#splash .selectBox button.btn_android:focus {
+	background: url('../img/android.png') no-repeat 0 -31px;
+}
+#splash .navi {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#splash .navi {
+	background: url('../img/arrow_down.png') no-repeat 50% 100%;
+}
+#splash .navi button {
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}

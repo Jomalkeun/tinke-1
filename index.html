@@ -8,8 +8,18 @@
     <title>tinke</title>
     <link rel="stylesheet" href="css/all.css"/>
 	<script src="js/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<!--<script src="js/main.js"></script>-->
 	<script src="js/malkeun.js"></script>
+    <script src="js/tinke.js"></script>
+    <script>
+        var tinke;
+
+        $(document).ready(function() {
+            tinke = new Tinke();
+            tinke.taehoon();
+        });
+    </script>
 </head>
 
 <body>
@@ -61,33 +71,85 @@
 
 <!--  navi_right :: by 영재  -->
 <div class="navi_right">
-    <div class="toggle_device">
-        <div class="apple"></div>
-        <div class="android"></div>
-    </div>
-    <ul class="navigation">
-        <li class="nav" title="#1"></li>
-        <li class="nav" title="#2"></li>
-        <li class="nav" title="#3"></li>
-        <li class="nav" title="#4"></li>
-        <li class="nav" title="#5"></li>
-        <li class="nav" title="#6"></li>
-        <li class="nav" title="#7"></li>
-        <li class="nav" title="#8"></li>
-        <li class="nav" title="#9"></li>
-    </ul>
+	<div class="toggle_device">
+		<div class="apple"></div>
+		<div class="android"></div>
+	</div>
+	<ul class="navigation">
+		<li class="nav" title="#1"></li>
+		<li class="nav" title="#2"></li>
+		<li class="nav" title="#3"></li>
+		<li class="nav" title="#4"></li>
+		<li class="nav" title="#5"></li>
+		<li class="nav" title="#6"></li>
+		<li class="nav" title="#7"></li>
+		<li class="nav" title="#8"></li>
+		<li class="nav" title="#9"></li>
+	</ul>
 </div>
 <!--  //navi_right :: by 영재  -->
 
 
+
+<!--  tinke :: by 영재  -->
+<div id="topPlayer">
+	<div class="topPlayerWrapper">
+		<div id="tinke">
+			<div id="tinke_light"></div>
+			<div id="tinke_body">
+				<div class="white"></div>
+				<div class="black"></div>
+				<div class="pink"></div>
+				<div class="blue"></div>
+				<div class="shadow"></div>
+			</div>
+			<div id="tinke_outline"></div>
+			<div id="tinke_parts">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<div class="body"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  tinke :: by 영재  -->
+
+
+
 <!--  section1 - splash(임시) :: by 영인   -->
-<div id="splash" class="section">
+<div id="splash" class="section"  data-section>
+    <div class="container">
+		<div class="hand">
+			<div class="hand1"></div>
+			<div class="hand2"></div>
+		</div>
+		<div class="text">
+			<h2><span class="i_r">tinke</span></h2>
+			<p>The only fitness & wellness tracker that measures your Heart Rate, Respiratory Rate, Blood Oxygen
+				saturation and Heart Rate Variability.</p>
+			<p>
+				FREE SHIPPING WORLDWIDE
+				<a href="#" class="btn_buy"><span class="i_r">buy</span></a>
+			</p>
+			<div class="selectBox">
+				<p>
+					SELECT YOUR TINKE
+					<button type="button" class="btn_ios on">For iOS Devices</button>
+					<button type="button" class="btn_android">For Android Devices</button>
+				</p>
+			</div>
+		</div>
+		<div class="navi">
+			<button type="button">take the tour</button>
+		</div>
+    </div>
 </div>
 <!--  //section1 - splash(임시) :: by 영인  -->
 
 
+
 <!--  section2 - intro :: by 도륜  -->
-<div id="intro" class="section">
+<div id="intro" class="section"  data-section>
 
     <!-- 전체 담는 container -->
     <div class="container">
@@ -131,7 +193,7 @@
 
 
 <!--  section3 - hands :: by 태훈 -->
-<div class="section third">
+<div class="section third"  data-section>
     <div class="hands"></div>
     <div class="container_third">
         <div class="box">
@@ -215,7 +277,7 @@
 
 
 <!--  section4 - brain :: by 맑은 -->
-<div class="part4 section">
+<div class="part4 section" data-section>
     <div class="cardio_stress">
         <div class="cardio_body">
             <div class="body_left"></div>
@@ -297,7 +359,7 @@
 
 
 <!--  section7 - share & mobile :: by 영재  -->
-<div id="youngJae">
+<div id="youngJae"  data-section>
 
     <!--  섹션1  -->
     <div id="share" class="section">
@@ -394,7 +456,7 @@
 
 
 <!--  section 8 - bottomNav & footer :: by 아미  -->
-<div class="num_eight">
+<div class="num_eight"  data-section>
     <div class="tinke_pocket">
     </div>
     <div class="mobility">
@@ -438,7 +500,7 @@
         </li>
     </ul>
 </div>
-<div class="footer_wrap">
+<div class="footer_wrap"  data-section>
     <div class="footer">
         <ul class="f_list_1">
             <li><a href="#">zensorium</a></li>

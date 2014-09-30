@@ -1,0 +1,56 @@
+#topPlayer {
+
+}
+#topPlayer .topPlayerWrapper {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	background: blue;
+}
+
+
+
+#tinke {
+	position: absolute;
+	top: 253px;
+	/*left: 150px;*/
+	left: 50%;
+    margin-left: -330px;
+	background: red;
+	z-index: 900;
+}
+#tinke #tinke_light {
+	position: absolute;
+}
+#tinke #tinke_body {
+	position: relative;
+}
+#tinke #tinke_body > div {
+	position: absolute;
+	width: 162px;
+	height: 208px;
+}
+#tinke #tinke_body .white {
+	background: url('../img/white%20(3).png') no-repeat;
+}
+#tinke #tinke_body .black {
+	background: url('../img/black%20(1).png') no-repeat;
+}
+#tinke #tinke_body .blue {
+	background: url('../img/blue%20(2).png') no-repeat;
+}
+#tinke #tinke_body .pink {
+	background: url('../img/pink%20(3).png') no-repeat;
+}
+#tinke #tinke_body .shadow {
+	width: 195px;
+	height: 241px;
+	background: url('../img/shadow%20(2).png') no-repeat;
+	z-index: -1;
+}
+
+#tinke #tinke_outline {}
+#tinke #tinke_parts {}
+#tinke #tinke_parts .top {}
+#tinke #tinke_parts .bottom {}
+#tinke #tinke_parts .body {}

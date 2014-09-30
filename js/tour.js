@@ -207,7 +207,7 @@ function ZensoriumTour() {
     var infoTitle = ["heart rate", "blood oxygen level", "respiratory rate", "heart rate variability"];
 
 
-    this.init = function () {
+    this.taehoon = function () {
         //console.log('init');
 
         doc = $(document);
@@ -446,6 +446,7 @@ function ZensoriumTour() {
                 });
             }
         );
+
         div_android_colorselector.children().each(
             function (index, item) {
                 var jItem = $(item);
@@ -548,6 +549,7 @@ function ZensoriumTour() {
         this.onWindowResize();
 
     }
+
     showRunningMan = function () {
         if (isRunningMan) {
             return;
@@ -567,6 +569,7 @@ function ZensoriumTour() {
         );
 
     }
+
     hideRunningMan = function () {
         if (!isRunningMan) {
             return;
@@ -585,12 +588,13 @@ function ZensoriumTour() {
             }
         );
 
-    }
+    };
+
     runningGraphTweenComplete = function (item) {
         var tarHeight = Math.random() * 30;
         var duration = Math.abs(tarHeight - item.height()) / 50;
         TweenMax.to(item, duration, { css: {height: tarHeight}, ease: Cubic.easeInOut, onComplete: runningGraphTweenComplete, onCompleteParams: [item] });
-    }
+    };
 
     this.onWindowScroll = function () {
         //console.log('onWindowScroll');
